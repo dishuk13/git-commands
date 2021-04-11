@@ -1,0 +1,12 @@
+[
+    {
+        "caption": "Switch branch...",
+        "command": "git",
+        "args": {"argv": ["switch-branch", "$select_local_branch"]}
+    },
+    {
+        "caption": "Sync branch with master",
+        "command": "git",
+        "args": {"argv": ["sync"]}
+    },
+]
