@@ -5,7 +5,7 @@
         "args": {"argv": ["switch-branch", "$select_local_branch"]}
     },
     {
-        "caption": "Sync branch with master",
+        "caption": "Sync branch with main",
         "command": "git",
         "args": {"argv": ["sync"]}
     },
