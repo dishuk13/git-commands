@@ -34,7 +34,7 @@ This is the same as `git switch` with the addition of saving your uncommited cha
 
 This pulls origin, rebases current branch on top of "main" branch and then pushes current branch to origin. If there are any conflicts, you need to resolve them and run this command again to finish the process.
 
-Also, you would need change "main" to something else in `git-sync` if your trunk branch is something other than "main", say develop or master.
+Also, you would need to change "main" to something else in `git-sync` if your trunk branch is something other than "main", say develop or master.
 
 ## Sublime Merge integration
 
