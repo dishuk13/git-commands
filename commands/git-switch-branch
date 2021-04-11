@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+branch=$1
+git stash -u
+git switch $branch
+branchStashIndex=$(git stash list | grep "^stash@{\d*}: WIP on $branch:" | cut -d'}' -f1-1 | cut -d'{' -f2-)
+if [ -n "$branchStashIndex" ]; then 
+    git stash pop $branchStashIndex
+fi
