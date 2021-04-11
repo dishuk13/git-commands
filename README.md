@@ -38,7 +38,7 @@ Also, you would need to change "main" to something else in `git-sync` if your tr
 
 ## Sublime Merge integration
 
-There is a config for Sublime Merge in the repo called `Default.sublime-commands`. Instruction on how to use that can be found [here](https://www.sublimemerge.com/docs/custom_commands). 
+There is a config for Sublime Merge in the repo called `Default.sublime-commands`. Instructions on how to use that can be found [here](https://www.sublimemerge.com/docs/custom_commands). 
 
 Again, you would need to update the config if the trunk branch is not "main".
 
