@@ -2,4 +2,4 @@
 
 set -e
 git pull --rebase origin main
-git push -u origin HEAD
+git push --force-with-lease -u origin HEAD
